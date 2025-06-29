@@ -22,7 +22,7 @@ else:
         temperature=0.7
     )
     
-    # Use ChatHuggingFace with the LLM
+    # Use ChatHuggingFace with the HF LLM
     model = ChatHuggingFace(llm=llm1)
     
     # Use st.session_state to store the user input and avoid re-running the model on every interaction
