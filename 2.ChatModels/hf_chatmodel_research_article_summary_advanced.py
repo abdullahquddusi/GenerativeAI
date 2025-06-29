@@ -29,7 +29,7 @@ else:
 
     length_input = st.selectbox("Select Explaination Length",["Short (1-2 paragraphs)","Medium (3-5 paragraphs)","Long (Detailed Explaination)"])
     
-    #template info
+    #template
     template = PromptTemplate(
         template="""
     Please summarize the research paper titled "{paper_input}" with the following specificaions:
