@@ -52,7 +52,7 @@ def get_text_data_and_tiktoken_tokenize(file_path: str, encoding_name: str = "cl
     return tokenizer, encoded_texts, decoded_texts
 
 if __name__ == "__main__":
-    text_file_path = r"D:\Study\MS\GenAI\LangChainFundamentals\Transformers\BigData.txt"
+    text_file_path = r"D:\Story.txt"
 
     bpe_tokenizer, tokenized_data_ids, original_decoded_data = get_text_data_and_tiktoken_tokenize(
         text_file_path,
